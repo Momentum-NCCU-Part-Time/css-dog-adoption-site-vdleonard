@@ -1,4 +1,5 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/ztB5Rtka)
+
 # Build a Small Non-Profit Website -- CSS Edition
 
 ## Requirements
@@ -10,18 +11,22 @@ To submit this project, you must push your code to GitHub.
 The pages should look like the following:
 
 ### Home
+
 ![home page](homepage.png)
 
 ### Adopt
+
 ![adopt page](adopt.png)
 
 ### Contact
+
 ![contact page](contact.png)
 
 The fonts used are Open Sans and Oswald, and can be included by adding the following line to your stylesheet:
 
 ```html
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;600&display=swap');
+@import
+url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;600&display=swap');
 ```
 
 The link to the adoption application form can go to `#`, which is a way to link to the same page as you are currently on.

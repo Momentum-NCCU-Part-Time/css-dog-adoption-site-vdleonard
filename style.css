@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+
+}
+/* Header for every page */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #004175;
+  color: white;
+  font-family: 'Oswald';
+  padding: 2%;
+  border-bottom: 1px #89DEEF;
+}
+
+.nav-item {
+  display: inline;
+  padding-right: 5px;
+  
+}
+
+a {
+  font-family: 'Open Sans';
+  color: white;
+}
+
+.img-header {
+  width: 100%;
+}
+
+/* Body of Home Page */
+.about-us {
+  font-family: 'Open Sans';
+  width: 65%;
+  margin: 1em auto;
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+
+/*Body of Adopt page */
+
+h2 {
+  margin: 1ex;
+}
+
+p {
+  margin: 1ex;
+}
+
+.dog-list { /*dog flex container*/
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.dog { 
+  font-family: 'Open Sans';
+  border-style: solid;
+  border-radius: 5px;
+  border-color: lightgrey;
+  border-width: 2px;
+  padding: 1ex;
+  margin: 1ex;
+}
+
+.dog-name {
+  font-family: 'Oswald';
+  padding-bottom: 15px;
+}
+
+.dog-traits-list { /*Traits flex container*/
+  display: flex;
+  flex-flow: row wrap;
+  width: 31vh;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+
+.dog-traits-item {
+  display: inline;
+  background: #89DEEF;
+  border-style: solid;
+  border-color: #89DEEF;
+  border-width: 5px;
+  border-radius: 1em;
+  margin: 5px;
+}
+
+/* Body of Contact Us Page */
+
+h3 {
+  margin-left: 4%;
+  margin-top: 4%;
+  margin-bottom: 2%;
+}
+
+/* Footer for every page */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* use to visulise contaner " background-color: pink; "*/
+  width: auto;
+  height: 20vw;
+  
+
+}
+
+.footer-img {
+  
+  flex-grow: 1;
+  
+}
+
