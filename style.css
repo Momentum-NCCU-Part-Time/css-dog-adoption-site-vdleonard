@@ -2,8 +2,9 @@
 *{
   margin: 0;
   padding: 0;
-
+  box-sizing: border-box;
 }
+
 /* Header for every page */
 .header {
   display: flex;
@@ -55,7 +56,7 @@ p {
   flex-wrap: wrap; 
 }
 
-.dog { 
+.dog { /*dog flex items*/
   font-family: 'Open Sans';
   border-style: solid;
   border-radius: 5px;
@@ -78,7 +79,7 @@ p {
   align-content: flex-start;
 }
 
-.dog-traits-item {
+.dog-traits-item {  /*dog flex items*/
   display: inline;
   background: #89DEEF;
   border-style: solid;
