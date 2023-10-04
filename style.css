@@ -103,17 +103,35 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* use to visulise contaner " background-color: pink; "*/
   width: auto;
   height: 20vw;
   
 
 }
 
-.footer-img {
-  
-  flex-grow: 1;
+.footer-donate{
+  display: inline;
+  flex: 1 1 auto;
+  background: linear-gradient(#A6A9F0B0, #A6A9F0B0), url(/images/donate.jpg);
+  width: auto;
+  height: 20vw;
+}
+
+.footer-volunteer{
+  display: inline;
+  flex: 1 1 auto;
+  background: linear-gradient(rgba(166, 169, 240, .25), rgba(166, 169, 240, .25)), url(/images/volunteer.jpg);
+  width: auto;
+  height: 20vw;
   
 }
 
+.footer-location{
+  display: inline;
+  flex: 1 1 auto;
+  background: linear-gradient(rgba(166, 169, 240, .25), rgba(166, 169, 240, .25)), url(/images/location.png);
+  width: auto;
+  height: 20vw;
+  
+}
 /* LEARNED HOW TO BRANCH OFF MAIN! WOOT! */
