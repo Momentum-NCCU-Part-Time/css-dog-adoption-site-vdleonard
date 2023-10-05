@@ -26,6 +26,7 @@
 a {
   font-family: 'Open Sans';
   color: white;
+  text-decoration: none;
 }
 
 .img-header {
@@ -103,44 +104,74 @@ footer {
   display: flex;
   justify-content: center;
   align-items: stretch;
-  background-color: aqua;
   width: auto;
-  height: 25vh;
+  height: 30vh;
 }
 
-.footer-donate{
+.footer-donate {
   display: inline;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: auto;
-  background: linear-gradient(#A6A9F0B0, #A6A9F0B0), url(/images/donate.jpg);
+  background: linear-gradient(#3b41ee73, #3b41ee73), url(/images/donate.jpg);
   background-size: cover;
   background-position: center;
-  
-
 }
 
-.footer-volunteer{
+.footer-donate:hover {
+  background: linear-gradient(#3b41ee00, #3b41ee00), url(/images/donate.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.footer-volunteer {
   display: inline;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: auto;
-  background: linear-gradient(rgba(166, 169, 240, .25), rgba(166, 169, 240, .25)), url(/images/volunteer.jpg);
+  background: linear-gradient(#3b41ee73, #3b41ee73), url(/images/volunteer.jpg);
   background-size: cover;
   background-position: center;
-
-
 }
 
-.footer-location{
+.footer-volunteer:hover {
+  background: linear-gradient(#3b41ee00, #3b41ee00), url(/images/volunteer.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+
+.footer-location {
   display: inline;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: auto;
-  background: linear-gradient(rgba(166, 169, 240, .25), rgba(166, 169, 240, .25)), url(/images/location.png);
-  background-repeat: no-repeat;
+  background: linear-gradient(#3b41ee73, #3b41ee73), url(/images/location.png);
   background-size: cover;
   background-position: center;
 
 }
+
+.footer-location:hover {
+  background: linear-gradient(#3b41ee00, #3b41ee00), url(/images/location.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.footer-text {
+  font-family: 'Oswald';
+  font-size: 3em;
+  color: white;
+
+}
+
 /* LEARNED HOW TO BRANCH OFF MAIN! WOOT! */
