@@ -11,19 +11,41 @@
   justify-content: space-between;
   align-items: center;
   background-color: #004175;
-  color: white;
-  font-family: 'Oswald';
-  padding: 2%;
   border-bottom: 1px #89DEEF;
+  padding-top: 2vh;
+  padding-bottom: 3vh;
 }
 
-.nav-item {
-  display: inline;
-  padding-right: 5px;
+h1 {
+  color: white;
+  font-family: 'Oswald';
+  
+  padding-left: 2vw;
   
 }
 
-a {
+.nav {
+  display: flex;
+  justify-content: center;
+  
+  padding-right: 2vw;
+}
+
+.nav-item {
+  display: flex;
+  justify-content: space-between;
+  width: 20vh;
+  padding-left: 1vw;
+}
+
+.nav-link, .nav-link:visited {
+  font-family: 'Open Sans';
+  color: white;
+  text-decoration: none;
+  font-size: larger;
+}
+
+.nav-link:visited {
   font-family: 'Open Sans';
   color: white;
   text-decoration: none;
@@ -46,10 +68,12 @@ a {
 
 h2 {
   margin: 1ex;
+  font-family: 'Open Sans';
 }
 
 p {
   margin: 1ex;
+  font-family: 'Open Sans';
 }
 
 .dog-list { /*dog flex container*/
@@ -83,6 +107,7 @@ p {
 .dog-traits-item {  /*dog flex items*/
   display: inline;
   background: #89DEEF;
+  font-family: 'Open Sans';
   border-style: solid;
   border-color: #89DEEF;
   border-width: 5px;
@@ -93,9 +118,24 @@ p {
 /* Body of Contact Us Page */
 
 h3 {
-  margin-left: 4%;
-  margin-top: 4%;
-  margin-bottom: 2%;
+  margin-left: 2vw;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  font-family: 'Open Sans';
+
+}
+
+.contact-links {
+  margin-left: 2vw;
+}
+
+.contact-item {
+  margin: 0;
+}
+
+.hours {
+  margin-left: 4vw;
+  margin-bottom: 8vh;
 }
 
 /* Footer for every page */
@@ -173,5 +213,6 @@ footer {
   color: white;
 
 }
+
 
 /* LEARNED HOW TO BRANCH OFF MAIN! WOOT! */
