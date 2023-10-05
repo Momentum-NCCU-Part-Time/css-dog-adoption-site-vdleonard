@@ -102,36 +102,45 @@ h3 {
 footer {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
+  background-color: aqua;
   width: auto;
-  height: 20vw;
-  
-
+  height: 25vh;
 }
 
 .footer-donate{
   display: inline;
-  flex: 1 1 auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
   background: linear-gradient(#A6A9F0B0, #A6A9F0B0), url(/images/donate.jpg);
-  width: auto;
-  height: 20vw;
+  background-size: cover;
+  background-position: center;
+  
+
 }
 
 .footer-volunteer{
   display: inline;
-  flex: 1 1 auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
   background: linear-gradient(rgba(166, 169, 240, .25), rgba(166, 169, 240, .25)), url(/images/volunteer.jpg);
-  width: auto;
-  height: 20vw;
-  
+  background-size: cover;
+  background-position: center;
+
+
 }
 
 .footer-location{
   display: inline;
-  flex: 1 1 auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
   background: linear-gradient(rgba(166, 169, 240, .25), rgba(166, 169, 240, .25)), url(/images/location.png);
-  width: auto;
-  height: 20vw;
-  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
 }
 /* LEARNED HOW TO BRANCH OFF MAIN! WOOT! */
